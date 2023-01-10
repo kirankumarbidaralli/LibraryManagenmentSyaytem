@@ -1,0 +1,38 @@
+
+.landingpage {
+    /* margin-top: 0px; */
+    /* background-image: url('http://rovan.in/wp-content/uploads/2015/01/library-management-system.jpg'); */
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url("https://as2.ftcdn.net/v2/jpg/01/82/36/71/500_F_182367162_YsJ2Vb9R1AqoE6IM9LM7mTkRrNGPe6p3.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    /* padding:0px; */
+}
+.home{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(243, 224, 224);
+    padding: 50px 90px;
+    margin: 180px 320px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 15px 15px 15px rgb(8, 0, 0);
+}
+.home2 a{
+    background-color: transparent;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px black solid;
+    border-radius: 10px;
+    font-size: 20px;
+    /* margin-top:180px; */
+    align-items: center;
+}
+.selectLoginType h1{
+    margin-top: 0px;
+    /* margin-left: 500px; */
+    /* font-size: 45px; */
+}
+/* .home2{
+    /* margin-top: 200px; */
+/* } */

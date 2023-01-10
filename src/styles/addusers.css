@@ -1,0 +1,30 @@
+.users_card{
+    display: inline-block;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 15px 10px 10px rgba(255, 230, 0, 0.596);
+    padding: 20px;
+}
+.addusers h1{
+    margin-left: 700px;
+}
+.users_section {
+    padding-left: 200px;
+}
+/* .users_section{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 150px;
+} */
+
+/* .users_card{
+    display: inline-block;
+    justify-content: space-between;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 5px 5px rgba(218, 165, 32, 0.584);
+} */

@@ -1,0 +1,21 @@
+.adminlogin {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    padding: 40px 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBEg7r80Llj6F1Rbmd9Z0PNPdiAEhb5v1gyA&usqp=CAU");
+    border-radius: 20px;
+
+}
+.form_input input,button{
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(244, 248, 246);
+}
+.form_input button{
+    background-color:whitesmoke;
+    border: 1px solid black;
+}
