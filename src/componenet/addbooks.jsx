@@ -6,7 +6,7 @@ const AddBooks =()=>{
 
     //title,categories,authors,pageCount,thumbnailUrl,shortDescription,longDescription
 
-    let [title,setTitle] = useState([])
+    let [title,setTitle] = useState("")
     let [categories,setCategories] = useState("")
     let [authors,setAuthors]=useState("")
     let [pageCount,setpageCount] =useState("")
@@ -33,7 +33,7 @@ const AddBooks =()=>{
     }
 
     return(
-      <div className="aadbook">
+      <div className="addbook">
             <h1>Add a Book</h1>
             <div className="form">
                 <form action="" onSubmit={handleSubmit}>
@@ -58,11 +58,12 @@ const AddBooks =()=>{
                     <div className="thumbnailUrl">
                         <input type="text" placeholder=" enter book url" value={thumbnailUrl} onChange={(e)=>setThumbnailUrl(e.target.value)} />
                     </div>
-                    <button>Add Book</button>
+                    <button id="btn">Add Book</button>
                 </form>
             </div>
       </div>
     )
 }
 export default AddBooks;
+
 
